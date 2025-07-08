@@ -1,7 +1,7 @@
 # 🏗️ Odoo Warehouse Automation (XML-RPC)
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Odoo](https://img.shields.io/badge/Odoo-Inventory%20Module-purple?logo=odoo)
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)  
+![License](https://img.shields.io/badge/License-MIT-green)  
+![Odoo](https://img.shields.io/badge/Odoo-Inventory%20Module-purple?logo=odoo)  
 
 
 This project demonstrates how to automate **warehouse inventory operations** in the Odoo ERP system using **Python** and **XML-RPC**. It includes a working example of creating and confirming a stock picking (delivery order) programmatically.
