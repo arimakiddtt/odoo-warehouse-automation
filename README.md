@@ -6,6 +6,17 @@
 
 This project demonstrates how to automate **warehouse inventory operations** in the Odoo ERP system using **Python** and **XML-RPC**. It includes a working example of creating and confirming a stock picking (delivery order) programmatically.
 
+## 🆕 What's New
+
+- 📜 **`automate_picking_v1.py`** – Refactored version of the original script with improved naming and structure
+- 🗃️ **`sql_explained.sql`** – Helpful SQL queries for setting up product, location, and UoM values in your Odoo DB
+- ✅ Verified on **Odoo SaaS Enterprise v18.3+e**
+- ⚠️ Expected to work on Odoo v17, but not yet tested
+
+---
+
+## ⚙️ Features
+
 Ideal for use cases like:
 - 🔄 Automating repetitive logistics workflows
 - 🧠 Building AI-driven or voice-enabled ERP interactions
@@ -33,12 +44,12 @@ db = ""          # Your Odoo DB name
 username = ""    # Your Odoo login (email)
 password = ""    # Your password
 
-product_name = "Pens"
-operation_name = "Delivery to HSE"    # Must match an Operation Type in Odoo exactly
-location_id = 26                      # Source location ID
-location_dest_id = 39                 # Destination location ID
-product_uom = 1                       # Unit of Measure ID (check your UOMs)
-product_uom_qty = 10                  # Quantity to deliver
+product_display_name = "Coffee Mug (White)"  # or "Pens"
+operation_name = "Delivery to HSE"           # Must match an Operation Type in Odoo exactly
+location_id = 26                             # Source location ID
+location_dest_id = 39                        # Destination location ID
+product_uom = 1                              # Unit of Measure ID (check your UOMs)
+product_uom_qty = 10                         # Quantity to deliver
 
 📎 Where do I get these values?
 You can retrieve these values directly from your Odoo interface or database.
